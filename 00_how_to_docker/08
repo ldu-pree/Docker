@@ -1,0 +1,4 @@
+#--rm to automatically remove
+#-i keep STDIN open
+
+docker pull alpine; docker run -it --rm alpine /bin/sh

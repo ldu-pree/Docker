@@ -1,0 +1,9 @@
+#for testing do: docker pull debian
+#then: docker run -it debian
+
+
+#in container commands
+apt-get update && apt-get upgrade -y
+apt-get install git build-essential -y
+apt-get install clang -y
+apt-get install gcc

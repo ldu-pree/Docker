@@ -1,0 +1,4 @@
+#docker volume ls
+#can use most docker features with ls like (docker image ls) or (docker container ls)
+
+docker volume create --name hatchery

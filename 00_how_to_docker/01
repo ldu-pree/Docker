@@ -1,0 +1,4 @@
+docker-machine create --driver virtualbox Char
+
+# if it gives vtx error even when it is enabled try this
+docker-machine create --virtualbox-no-vtx-check Char
